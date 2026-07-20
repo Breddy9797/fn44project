@@ -42,7 +42,7 @@ async def main():
     jadval_yaratish()
 
     setup_application(app,dp,port=PORT)
-    await web.run_app(app,host="0.0.0.0",port=PORT)
+    await web._run_app(app,host="0.0.0.0",port=PORT)
 
 
 if __name__ == '__main__':
