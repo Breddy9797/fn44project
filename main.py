@@ -41,7 +41,7 @@ async def main():
     webhook_requests_handler.register(app, path=WEBHOOK_PATH)
     jadval_yaratish()
 
-    setup_application(app,dp,port=PORT)
+    setup_application(app,dp,bot = bot)
     await web._run_app(app,host="0.0.0.0",port=PORT)
 
 

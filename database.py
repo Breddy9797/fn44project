@@ -1,5 +1,5 @@
 import psycopg2
-from load import DB_NAME, DB_USER, DB_PASS, DB_HOST, DB_PORT
+
 import os
 
 DATABASE_URL = os.getenv('DATABASE_URL')
