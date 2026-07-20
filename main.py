@@ -3,8 +3,8 @@ import asyncio
 
 from aiogram import Dispatcher, Bot, types
 from aiogram.filters import CommandStart, Command
-from aiogram.webhook.aiohttp_server import setup_application
-from aiohttp import web,SimpleRequestHandler
+from aiogram.webhook.aiohttp_server import setup_application, SimpleRequestHandler
+from aiohttp import web
 
 from database import connection, jadval_yaratish,malumot
 from load import BOT_TOKEN
